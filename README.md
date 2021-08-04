@@ -18,9 +18,8 @@ Faite en html, css et php, elle fournit:
 ## 2. Fonctionnement
 Simple d'utilisation, la première page (index.php) contient la fausse page de connexion PayPal.
 La seconde (succes.php) contient la page qui diras que le compte à bien été verifié etc et l'utilisateur seras invité à fermer l'onglet.
-Une fois l'utilisateur arrivé sur la page "succes.php", les informations seront stocké dans un fichier txt nommé: data.txt
+Une fois l'utilisateur arrivé sur la page "succes.php", les informations seront stocké dans un fichier txt nommé "data.txt".
 Le fichier est créer automatiquement à la connexion de votre première cible et seras stocké dans le même dossier que les 2 pages php.
-
 En utilisant cette scam page vous assumez entièrement tout acte commis avec celle ci.
 
 Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter sur discord:
