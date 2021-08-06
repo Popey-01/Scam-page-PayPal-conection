@@ -24,7 +24,7 @@ En utilisant cette scam page vous assumez entièrement tout acte commis avec cel
 
 Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter sur discord:
 - Pseudo: Esio#0007
-- Serveur: https://discord.gg/PRFMNNGkwq
+- Serveur: https://discord.gg/onyxfr
 
 ----
 ## 3. Aperçu
