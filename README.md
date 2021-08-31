@@ -50,8 +50,6 @@ Comme vous l'avez vu dans le paragraphe précédent, les ip inscrit dans le fich
  - IP
  - date/heure à laquel ils ont visité votre page
 
-![logs.txt](https://media.discordapp.net/attachments/633782210238873612/882060188302073877/unknown.png)
-
    Les logs vous préciserons si la personne est déjà venu sur votre site auparavant, et si oui, les logs préciserons la redirection de l'utilisateur (le lien spécifié      dans le fichier "redirection.txt").
    
 ### D. Webhook Discord
