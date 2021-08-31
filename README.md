@@ -56,6 +56,7 @@ Comme vous l'avez vu dans le paragraphe précédent, les ip inscrit dans le fich
    
 ### D. Webhook Discord
 Possibilité de lié un webhook discord à votre scam page ! Aussi simple d'utilisation que toute les autres fonctionnalitées. Il vous suffit d'ouvrir le fichier "discord_webhook.txt" et de remplacé votre webhook à la place de "YOUR WEBHOOK URL HERE". Une fois cela fait et enregistré, les modifications seront appliqué et les formulaires de connexion de votre page seront renseigné non seulement sur le fichier "data.txt", mais aussi sur le salon qu'occupe votre webhook sous cette forme:
+
 ![webhook.txt](https://media.discordapp.net/attachments/633782210238873612/882065636883312670/unknown.png?width=597&height=630)
 
 Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter sur discord:
