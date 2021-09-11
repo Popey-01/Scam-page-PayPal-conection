@@ -1,7 +1,8 @@
 # Scam page PayPal 2.0 (Update)
 ----
-## 1. Informations
-
+## 1. Tutoriel explicatif
+https://www.youtube.com/watch?v=5_gggGhVZlY
+## 2. Informations
 Page de phishing simulant la page de connexion PayPal. 
 Faite en php, elle fournit:
   - email
@@ -24,12 +25,12 @@ Faite en php, elle fournit:
 ![example.txt](https://media.discordapp.net/attachments/633782210238873612/882046827761901618/unknown.png?width=1360&height=630)
 
 ----
-## 2. Fonctionnement générale
+## 3. Fonctionnement générale
 
 
 Les informations sont stocké dans le fichier "data.txt" après que la personne ai envoyer le formulaire en cliquant sur "Se connecter".
 ----
-## 3. Fonctionnalité
+## 4. Fonctionnalité
 
 La page est équipé:
   - d'un auto ip blacklist
@@ -37,7 +38,7 @@ La page est équipé:
   - de logs
   - d'un system de webhook discord (pour reçevoir vos infos via un salon)
 ----
-## 4. Fonctionnement
+## 5. Fonctionnement
 
   ### A. L'auto ip blacklist/ip locker
   Fonctionnalitée très utile pour éviter les spam/ddos/vengeance ou autre, le principe est relativement simple, une fois que la personne à visité votre fausse page de connexion (plus précisément: une fois que la personne à envoyer son formulaire de connexion "PayPal"), son ip va s'inscrire dans un fichier nommé "blacklist.txt". Vous l'aurez compris, une fois votre ip sur ce fichier il n'est plus possible d'accéder au site. A la place, la personne seras redirigé sur une page (plus d'info au paragraphe B ). Vous verrrez dans le fichier "blacklist.txt" qu'il y as déjà 11 810 IP inscrit. Ces ip sont connu pour le ddos etc... J'ai donc pris les soins de les mettre par défaut pour diminuer les chance aux personnes qui tentent d'attaquer votre page de connexion.
@@ -62,6 +63,6 @@ Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter s
   - Serveur: https://discord.gg/onyxfr
 
 ----
-## 5. Aperçu
+## 6. Aperçu
 ![fake page](https://media.discordapp.net/attachments/633782210238873612/872501183011512381/unknown.png?width=1246&height=629)
 ----
