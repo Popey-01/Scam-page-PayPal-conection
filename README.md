@@ -1,7 +1,7 @@
 # Scam page PayPal 2.0 (Update)
 ----
 ## 1. Tutoriel explicatif
-https://www.youtube.com/watch?v=5_gggGhVZlY
+https://www.youtube.com/watch?v=5_gggGhVZlY 
 ## 2. Informations
 Page de phishing simulant la page de connexion PayPal. 
 Faite en php, elle fournit:
@@ -23,6 +23,7 @@ Faite en php, elle fournit:
 
 ### Exemple:
 ![example.txt](https://media.discordapp.net/attachments/633782210238873612/882046827761901618/unknown.png?width=1360&height=630)
+
 
 ----
 ## 3. Fonctionnement générale
