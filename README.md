@@ -1,3 +1,4 @@
+![fake page](https://media.discordapp.net/attachments/633782210238873612/872501183011512381/unknown.png?width=1246&height=629)
 # Scam page PayPal 2.0 (Update)
 ----
 ## 1. Tutoriel explicatif
@@ -63,7 +64,4 @@ Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter s
   - Pseudo: Esio#0007
   - Serveur: https://discord.gg/WXZAHr3HP6
 
-----
-## 6. Aperçu
-![fake page](https://media.discordapp.net/attachments/633782210238873612/872501183011512381/unknown.png?width=1246&height=629)
 ----
