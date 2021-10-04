@@ -61,7 +61,7 @@ Possibilité de lié un webhook discord à votre scam page ! Aussi simple d'util
 
 Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter sur discord:
   - Pseudo: Esio#0007
-  - Serveur: https://discord.gg/onyxfr
+  - Serveur: https://discord.gg/WXZAHr3HP6
 
 ----
 ## 6. Aperçu
