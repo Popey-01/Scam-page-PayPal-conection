@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <?php
     $logs = 'Panel/logs.txt';
     setlocale(LC_TIME, 'fra_fra');
