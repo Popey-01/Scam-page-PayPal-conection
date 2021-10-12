@@ -1,5 +1,5 @@
 ![fake page](https://media.discordapp.net/attachments/633782210238873612/872501183011512381/unknown.png?width=1246&height=629)
-# Scam page PayPal v2 (Update)
+# Scam page PayPal v2
 ----
 ## 1. Tutoriel explicatif
 https://www.youtube.com/watch?v=5_gggGhVZlY 
