@@ -64,4 +64,5 @@ Si vous avez des soucis à propos de cette scam page, vous pouvez me contacter s
   - Pseudo: Esio#0007
   - Serveur: https://discord.gg/WXZAHr3HP6
 
+
 ----
