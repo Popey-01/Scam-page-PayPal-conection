@@ -9,22 +9,14 @@
 ## 2. Informations
 Page de phishing simulant la page de connexion PayPal. 
 Faite en php, elle fournit:
-  - email
-  - mot de  passe
-  - IP
-  - date/heure (à la seconde près)
-  - Pays
-  - Région
-  - Ville
-  - Code postal
-  - Coordonées (latitude, longitude)
-  - Fuseau horaire
-  - Langues
-  - ASN
-  - ISP
-  - Navigateur
-  - User agent
 
+| Information Générales     | Information de géolocalisation    | Autre informations   |
+| ------------------------- | ----------------------------------|----------------------|
+| email                     | Pays                              | Fuseau horaire       |
+| mot de  passe             | Région                            | Langues              |
+| IP                        | Ville                             | ASN / ISP            |
+| date                      | Code postal                       | User agent           |
+| heure                     | Coordonées (latitude, longitude)  | Navigateur           |
 ### Exemple:
 ![example.txt](https://media.discordapp.net/attachments/633782210238873612/882046827761901618/unknown.png?width=1360&height=630)
 
