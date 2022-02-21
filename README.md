@@ -2,9 +2,9 @@
 # Scam page PayPal v2
 ----
 ## 1. Tutoriel explicatif
-|strike      | https://www.youtube.com/watch?v=5_gggGhVZlY                               |
+|Youtube     | https://www.youtube.com/watch?v=5_gggGhVZlY                               |
 |------------|---------------------------------------------------------------------------|
-|not striked | https://mega.nz/file/8Idw0BgR#4g3Q06INHZapjvKrKBZ1Odz0vUhZidXzgGYhcc49MO4 |
+|MEGA        | https://mega.nz/file/8Idw0BgR#4g3Q06INHZapjvKrKBZ1Odz0vUhZidXzgGYhcc49MO4 |
 
 ## 2. Informations
 Page de phishing simulant la page de connexion PayPal. 
