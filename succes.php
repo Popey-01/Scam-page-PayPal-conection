@@ -267,7 +267,7 @@
                     "value" => "```".$embed_user_agent. "```",
                     "inline" => false
                 ],            
-	        ]
+	    ]
         ]
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
